@@ -71,7 +71,7 @@ jobs:
     uses: ./.github/workflows/reusable.yml
     with:
       artifact-name: dist-files
-    secrets:
+    # secrets:
       # some-secret: ${{ secrets.some-secret}}
   print-deploy-result:
     needs: deploy 
